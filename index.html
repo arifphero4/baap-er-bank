@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BAAP er BANK</title>
+    <!--  tailwind css -->
+    <link
+      href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <h1 class="text-5xl text-center mt-16">
+        Welcome to
+        <span class="text-purple-600 font-semibold">BAAP er BANK</span>
+      </h1>
+    </header>
+
+    <main class="">
+      <section class="bg-green-100 w-3/4 p-8 mx-auto mt-8">
+        <h3 class="text-2xl mb-4">Please Login</h3>
+        <div>
+          <input
+            id="user-email"
+            class="border border-yellow-600 block w-2/4 rounded mb-4 px-2"
+            type="text"
+            placeholder="enter your email"
+          />
+          <input
+            id="user-password"
+            class="border border-yellow-600 block w-2/4 rounded mb-4 px-2"
+            class="block"
+            type="password"
+            placeholder=" enter your password"
+          />
+          <button
+            id="login-submit"
+            class="bg-blue-500 text-white rounded font-medium px-2"
+          >
+            SUBMIT
+          </button>
+        </div>
+      </section>
+    </main>
+    <script src="login.js"></script>
+  </body>
+</html>
